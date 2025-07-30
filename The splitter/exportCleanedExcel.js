@@ -7,7 +7,7 @@ document.getElementById('fileInput').addEventListener('change', async (event) =>
 
   const cleanedRows = [];
 
-  // Define which columns to normalize across multiple defendants
+  // Define which columns to normalize across multiple cells. Rest should repeat with the other information.
   const defendantFields = ['age_group', 'sex', 'race_ethnicity', 'residence'];
 
   workbook.SheetNames.forEach(sheetName => {
